@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(187, 249, 243);
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+.player-name{
+    font-size: 2rem;
+    padding: 5% 2%;
+} 
+
+.dice{
+    margin: 0.8rem;
+    height: 7rem;
+}
+
+/* body{
+    background-color: rgb(187, 249, 243);
+    text-align: center;
+    /* position: relative; 
+}
+
+button{
+    margin: 1rem;
+    
+}
+
+.dice-photo{
+    margin: 0.8rem;
+    height: 7rem;
+}
+
+footer {
+    margin-top: 5%;
+    color: #000000;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+img {
+    width: 80%;
+}
+
+.player-name{
+    font-size: 2rem;
+} */

@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+}
+
+.content1-image{
+    float: left;
+}
+
+.content2-image{
+    float: right;
+}
+
+.contact-me{
+    margin: 2rem auto 1rem auto;
+    padding: 1rem;
+    color: #1b7f69;
+    border: 1px solid #45b29a;
+    background-color: #45b29a;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.content{
+    text-align: center;
+    margin: 5% auto;
+    position: relative;
+    top: 1.5rem;
+}
+
+.cloud1{
+    position: absolute;
+    bottom: 28rem;
+    left: 10rem;
+}
+
+.cloud2{
+    position: absolute;
+    right: 15%;
+    top: 0;
+}
+
+.designed-hr{
+    border-style: none;
+    border-top: 5px dotted rgb(95, 144, 95);
+    width: 5%;
+}
+
+footer{
+    background-color: #C5DED7;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.first{
+    background-color: #d0e9e2;
+    margin: 0;
+    position: relative;
+}
+
+.fourth{
+    text-align: center;
+}
+
+.gif1{
+    display: block;
+    float: left;
+}
+
+.gif2{
+    display: block;
+    float: right;
+}
+
+.gif-content1{
+    display: block;
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin-inline-start: 2rem;
+}
+
+.gif-content2{
+    display: block;
+    float: right;
+    width: 60%;
+    text-align: left;
+    margin-inline-end: 2rem;
+}
+
+header{
+    position: relative;
+}
+
+h2{
+    color: #1e836c;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 400;
+    margin-block-start: 1.3em;
+    margin-block-end: 0.8em;
+}
+
+h3{
+    font-size: 2em;
+    color: #45b29a;
+    margin-block-start: 1em;
+    margin-block-end: 1.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.images{
+    position: relative;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 0.5rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.links{
+    margin: 0.5rem 2rem;
+    padding: 0.5rem;
+}
+
+.my-photo{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border-width: fixed;
+}
+
+.mountain{
+    width: 60%;
+    
+}
+
+.nav1{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    height: 6.5rem;
+}
+
+.nav-bar{
+    display: inline-block;
+    width: 67%;
+    position: absolute;
+    right: 0;
+    height: 6.5rem;
+}
+
+.name{
+    font-family:'Courgette', cursive;
+    color: #4AB19A;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+p{
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 1.42857143;
+    color: #545454;
+    text-align: center;
+}
+
+pre{
+    margin-top: 5rem;
+}
+
+.profile-pic{
+    display: inline-block;
+    width: 33%;
+    height: 6.5rem;
+    position: relative;
+}
+
+.second{
+    position: relative;
+    text-align: center;
+}
+
+.second-article{
+    margin-bottom: 7rem;
+}
+
+.sec-2-photo{
+    width: 8rem;
+    margin-top: 5rem;
+}
+
+.second-heading{
+    margin: 0.93rem auto 0.83rem auto;
+    font-size: 2rem;
+}
+
+.title{
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.top-nav-bar{
+    display: block;
+    padding-inline-start: 0px;
+    /* margin: 5% 25%; */
+    position: absolute;
+    right: 7rem;
+    height: 35%;
+    top: 10%;
+}
+
+.third-article1{
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    margin-top: 4rem;
+}
+
+.third-article2{
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.third{
+    text-align: center;
+}
+

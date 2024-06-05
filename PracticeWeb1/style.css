@@ -1,0 +1,232 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1.42857143;
+    color: #545454;
+}
+
+#first{
+    padding-top: 0;
+    overflow: hidden;
+    background: #e0ebe8;
+    position: relative;
+}
+
+#first .photo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#first .name{
+    margin: 10% auto;
+    position: relative;
+    z-index: 100;
+}
+
+#first h1{
+    color: #1e836c;
+    font-size: 4.8em;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+}
+
+#first h2 {
+    font-size: 2.5em;
+    color: #45b29a;
+    margin: 2% auto;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Great Vibes', cursive;
+}
+
+#first .images{
+    position: relative;
+}
+
+#first .cloud{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    z-index: 0;
+}
+
+#first #left-cloud {
+    left: 10em;
+    bottom: 25em;
+}
+
+#first #right-cloud {
+    right: 8.5em;
+    top: -15rem;
+}
+
+#first .mountain{
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+#second {
+    text-align: center;
+}
+
+#second img{
+    width: 25%;
+}
+
+#second h2 {
+    font-size: 2em;
+    color: #45b29a;
+    margin: 3% auto;
+}
+
+#second .second-content{
+    margin: 7% 22%;
+}
+
+#third {
+    text-align: center;
+    margin: 1rem auto 5rem;
+}
+
+#third h2{
+    color: #1e836c;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 400;
+    margin-block-start: 1.3em;
+    margin-block-end: 0.8em;
+}
+
+#third #content1{
+    margin: 8% 0 7% 3%;
+}
+#third #content2{
+    margin: 5% 0 5% 3%;
+}
+
+ /* .a{
+    position: relative;
+    float: left;
+} */
+/* .b{
+    position: relative;
+    float: right;
+    
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+#third .c{
+    display: inline-block;
+    float: left;
+}
+
+#third .a{
+    display: inline-block;
+    float: left;
+}
+
+/* .d{
+    position: relative;
+    float: right;
+}  */
+
+#third h3{
+    font-size: 2em;
+    color: #45b29a;
+    margin-bottom: 5%;
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: left;
+}
+
+#third p{
+    text-align: left;
+}
+
+#third .third-content-image{
+    width: 40%;
+}
+
+#third .d{
+    float: right;
+}
+
+#third .b{
+    float: right;
+}
+
+.designed-hr {
+    border-style: none;
+    border-top: 5px dotted rgb(95, 144, 95);
+    width: 5%;
+    margin: 0 auto;
+}
+
+#fourth {
+    text-align: center;
+    background-color: white;
+}
+
+.fourth-content {
+    padding: 5% 10%;
+}
+
+.fourth-title {
+    margin: 4% 5% 6%;
+}
+
+#fourth h2 {
+    color: #1e836c;
+    font-size: 3.8em;
+    font-weight: 400;
+}
+
+#fourth h3 {
+    font-size: 2em;
+    color: #45b29a;
+    margin-bottom: 5%;
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+#fourth .button {
+    background: #3ea08a;
+    border: 0;
+    margin-top: 1%;
+}
+
+footer {
+    background-color: #C5DED7;
+    text-align: center;
+}
+
+.connect {
+    padding: 3% 15% 2%;
+}
+
+.links {
+    margin: 0.5rem 2rem;
+    padding: 0.5rem;
+    color: #45B29A;
+}
+
+.footer-text {
+    color: #45B29A;
+    padding: 2% 0 1%;
+}

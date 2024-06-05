@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="heading">Temperature Convertor</div>
+        <!-- <div class="celsius a"><span id="celsius">Celsius:</span>
+            <span class="temp"> <input type="number" name="celsius" onchange="computeTemp(event)" class="form-control c" placeholder="℃"></span>
+        </div>
+        <div class="fahrenheit a"><span id="fahrenheit">fahrenheit:</span>
+            <span class="temp"> <input type="number" name="fahrenheit" onchange="computeTemp(event)" class="form-control f" min="0" placeholder="℉"></span>
+        </div>
+        <div class="kelvin a"><span id="kelvin">kelvin:</span>
+            <span class="temp"> <input type="number" name="kelvin" onchange="computeTemp(event)" class="form-control k" min="-273.15" placeholder="K"></span>
+        </div> -->
+
+        <div class="celsius a">
+            <span id="celsius">Celsius:</span>
+            <input type="number" value="" placeholder="℃" name="celsius-input">
+        </div>
+        <div class="kelvin a">
+            <span id="kelvin">Kelvin:</span>
+            <input type="number" value="" placeholder="K" name="kelvin-input">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+:root {
+    --background-color: rgb(5, 10, 25);
+    --border-color: rgb(255, 255, 255, 0.1);
+    --highlight-color: rgb(126, 87, 194);
+    --yt-color: rgb(229, 57, 53);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background-color);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+span {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+#trailer{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1000ms ease;
+}
+
+body:hover > #trailer{
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--highlight-color);
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+
+#nav-icon,
+#nav-info,
+#nav-social-media,
+#nav-email {
+    display: flex;
+    padding: 1.5rem 1.5rem;
+    border-left: 1px solid var(--border-color);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #nav-mobile-section {
+    display: flex;
+    flex-basis: calc(100% * (2 / 3));
+    z-index: 2;
+} */
+
+#nav-icon,
+#nav-info {
+    flex-basis: calc(100% / 3);
+}
+
+#nav-icon {
+    justify-content: start;
+}
+
+#nav-info {
+    gap: 6rem;
+}
+
+#nav-social-media {
+    gap: 1rem;
+}
+
+#nav-social-media:hover{
+    cursor:none;
+    font-size: 1.5rem;
+    transition: font-size 0ms;
+}
+
+#nav-social-media,
+#nav-email {
+    flex-grow: 1;
+}
+
+main {
+    flex-grow: 1;
+    height: 100%;
+    position: relative;
+}
+
+main>article {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1000ms ease;
+}
+
+main>article[data-status="inactive"] {
+    transform: translateX(-100%);
+    transition: none;
+}
+
+main>article[data-status="active"] {
+    transform: translateX(0%);
+}
+
+main>article[data-status="before"] {
+    transform: translateX(-100%);
+}
+
+main>article[data-status="after"] {
+    transform: translateX(100%);
+}
+
+main>article[data-status="becoming-active-from-before"] {
+    transform: translateX(-100%);
+    transition: none;
+}
+
+main>article[data-status="becoming-active-from-after"] {
+    transform: translateX(100%);
+    transition: none;
+}
+
+main>article>.main-content {
+    height: 100%;
+    display: flex;
+}
+
+.image,
+.title {
+    border-right: 1px solid var(--border-color);
+}
+
+.title,
+.nav {
+    border-top: 1px solid var(--border-color);
+}
+
+.image{
+    /* max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    overflow: hidden; */
+    background-image: url("images/IMG_20230212_173335.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image:hover{
+    background-size: 115%;
+    transition:  1000ms ease;
+    cursor:none;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3rem;
+    font-size: 1.25rem;
+}
+
+.title{
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    color: white;   
+}
+
+main>article>.title>h2{
+    flex-basis: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+main>article>.nav>.nav-button{
+    background-color: transparent;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+main>article>.nav>.nav-button:hover{
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+main>article>.nav>.nav-button:nth-child(2){
+    border-left: 1px solid var(--border-color);
+}

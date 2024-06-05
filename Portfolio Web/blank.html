@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thank You</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+		#progress-bar {
+			width: 100%;
+			height: 10px;
+			background-color: lightgray;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 9999;
+		}
+		
+		#progress {
+			height: 100%;
+			background-color: red;
+			width: 100%;
+			animation: progress-animation 3s ease-out forwards;
+		}
+		
+		@keyframes progress-animation {
+			from { width: 100%; }
+			to { width: 0%; }
+		}
+	</style>
+</head>
+<body>
+	<div id="progress-bar">
+		<div id="progress"></div>
+	</div>
+	<h1>Thank You</h1>
+	<p>Your message has been sent.</p>
+	<p>You will be redirected to the homepage in 3 seconds...</p>
+
+	<script>
+		setTimeout(function() {
+			window.location.href = "index.html";
+		}, 3000);
+	</script>
+</body>
+</html>
+

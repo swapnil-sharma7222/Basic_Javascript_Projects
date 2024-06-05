@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicee Game</title>
+    <link rel="stylesheet" href="/The Dicee Game/Dice.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+</head>
+<body>
+	<h1>Refresh Me</h1>
+	<div>
+		<span class="player-name">Player 1</span>
+		<span class="player-name">Player 2</span>
+	</div>
+	<div>
+		<img src="images/dice6.png" alt="dice1" class="dice" id="left">
+		<img src="images/dice6.png" alt="dice1" class="dice" id="right">
+	</div>
+
+    <!-- <h1>Refresh Me</h1>
+    <center>
+        <table>
+            <thead>
+                <th><h3 class="player-name">Player 1</h3></th>
+                <th><h3 class="player-name">Player 2</h3></th>
+            </thead>
+            <tbody>
+                <td><img class="dice-photo" id='left' src="/The Dicee Game/images/dice6.png" alt="player 1"></td>
+                <td><img class="dice-photo" id='right' src="/The Dicee Game/images/dice6.png" alt="player 2"></td>
+            </tbody>
+        </table>
+    </center>
+    <input type="button" value="Play">
+    <p></p> -->
+    <hr>
+    <footer>
+        <pre style="text-align: left;">© Swapnil Sharma||2023.</pre>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+	<script src="Dice.js"></script>
+</body>
+
+</html>
+
+<!-- button = document.querySelector('input');
+button.addEventListener('click', updateButton);
+function updateButton() {
+    var randomNumber1= Math.floor(Math.random()* 6)+ 1;
+    var randomDiceImage= "dice"+ randomNumber1+ ".png";
+    var randomImageSource= "images/"+ randomDiceImage;
+    var image1= document.querySelectorAll("img")[0];
+    image1.setAttribute("src", randomImageSource);
+
+    var randomNumber2= Math.floor(Math.random()* 6)+ 1;
+    var randomDiceImage= "dice"+ randomNumber2+ ".png";
+    var randomImageSource= "images/"+ randomDiceImage;
+    var image2= document.querySelectorAll("img")[1];
+    image2.setAttribute("src", randomImageSource);
+  if (randomNumber1> randomNumber2) {
+    // document.querySelector("#left").innerHTML= scr= The Dicee Game/images.dice
+    document.querySelector("h1").innerText= "Player 1 won";
+  } 
+  else if(randomNumber1< randomNumber2){
+    document.querySelector("h1").innerText= "Player 2 won";
+  }
+  else{
+    document.querySelector("h1").innerText= "Its a draw";
+  }
+} -->
